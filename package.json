@@ -1,0 +1,24 @@
+{
+  "name": "ishare-tools-for-i4trust",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faubourg-numerique/ishare-tools-for-i4trust-js.git"
+  },
+  "author": "Faubourg Numérique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faubourg-numerique/ishare-tools-for-i4trust-js/issues"
+  },
+  "homepage": "https://github.com/faubourg-numerique/ishare-tools-for-i4trust-js#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
+  }
+}
