@@ -7,28 +7,16 @@ It has been developped by FIWARE iHub / DIH Faubourg Numérique, in the context 
 
 ### Installation
 
-Clone the repository
+Install the library
 
 ```
-git clone https://github.com/faubourg-numerique/ishare-tools-for-i4trust-js.git
-```
-
-Go to the downloaded folder
-
-```
-cd ishare-tools-for-i4trust-js
-```
-
-Install packages
-
-```
-npm install
+npm install git+https://github.com/faubourg-numerique/ishare-tools-for-i4trust-js
 ```
 
 Include the library in your project
 
 ```js
-const iShareToolsForI4Trust = require("../ishare-tools-for-i4trust-js");
+const iShareToolsForI4Trust = require("ishare-tools-for-i4trust");
 ```
 
 ## Usage
