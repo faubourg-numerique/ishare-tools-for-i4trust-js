@@ -38,7 +38,7 @@ exports.getAccessToken = async function(config = {}) {
         headers: headers
     };
     var data = {
-        grant_type: "client_credentials",
+        grant_type: "urn:ietf:params:oauth:grant-type:jwt-bearer",
         scope: "iSHARE",
         client_id: config.clientId,
         client_assertion_type: "urn:ietf:params:oauth:client-assertion-type:jwt-bearer",
